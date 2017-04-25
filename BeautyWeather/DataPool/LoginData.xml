@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding = "utf-8"?>
+
+<LoginData>
+    <Login001>
+        <username>18983838625</username>
+        <password>12345678</password>
+        <expValue>CC83483282</expValue>
+        <actValue>MyPageIndex().MyLoginText_by_Id().text</actValue>
+    </Login001>
+</LoginData>
