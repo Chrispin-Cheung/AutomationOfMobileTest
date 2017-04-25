@@ -1,0 +1,20 @@
+# -*- coding:UTF-8 -*-
+
+#Author:iotrookie
+#CreateTime:2017.04.12
+#Funciton:
+#Edit:
+#Edit Author:
+#Edit CreateTime:
+#Edir Function:
+
+
+def singleton(cls,*args,**kw):
+    instances = {}
+    def _singleton():
+
+        if cls not in instances:
+            instances[cls] = cls(*args,**kw)
+
+        return instances[cls]
+    return _singleton
